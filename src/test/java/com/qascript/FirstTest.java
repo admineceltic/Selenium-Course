@@ -19,8 +19,8 @@ public class FirstTest {
         options.addArguments("disable-gpu");
         driver = new ChromeDriver(options);
         driver.get("https://www.gibl.in/");
-        //System.out.println("Title of the page is: " + driver.getTitle());
-        //Assert.assertTrue("Page title is not correct",driver.getTitle().equals("Google"));
+        System.out.println("Title of the page is: " + driver.getTitle());
+        // Assert.assertTrue("Page title is not correct",driver.getTitle().equals("Google"));
 
 
     }
